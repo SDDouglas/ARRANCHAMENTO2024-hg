@@ -88,6 +88,7 @@ if (document.getElementById('arranchForm')) {
 
     if (res.ok) {
       alert('Arranchamentos semanais registrados com sucesso!');
+      window.location.href = 'logout_after_submit.php'; // Redireciona para a tela de login após o registro
     } else {
       alert('Erro ao registrar arranchamentos!');
     }
